@@ -1,0 +1,106 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif ;
+        }
+        body {
+            margin-left: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+            width: 600px;
+        }
+        .description{
+            color: rgba(0,0,0,0.4);
+            margin-bottom: 10px;
+        }        
+        h2{
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+        hr{
+            margin-top: 5px;
+            margin-bottom: 8px;
+        }
+        .section{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 320x;
+        }
+        h1{
+            font-size: 48px;
+            margin-top: 80px;
+            margin-bottom: 10px;;
+        }
+
+        h3{
+            font-size: 18px;
+        }
+        h4{
+            font-size: 16px;
+        }
+        p{
+            font-size: 16px;
+            line-height: 1.7;
+            margin-bottom: 30px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .blockqoute{
+            padding-left: 25px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background-color: #eaecf0;
+            border: 1px solid #72777d;
+            border-radius: 2px;
+        }
+        .blockqoute1{
+            padding-left: 17px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            border: 3px, solid #000000;
+            border-bottom: 0px;
+            border-top: 0px;
+            border-right: 0px;
+            font-style: oblique;
+        }        
+        .naz{
+            margin-top: 5px;
+            margin-bottom: 3px;
+            font-weight: lighter;
+        }
+        
+        .kursiv{
+            font-style: oblique;
+        }
+        ul {
+            margin-left: 10px;
+        }
+
+        .naz1{
+            margin-top: 5px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .spisok{
+            margin-left: 40px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .bold{
+            font-weight: bold;
+        }
+        #Содержание {
+            position: fixed;
+            left: 0;
+            width: 300px;
+            margin-left: 0px;
+            height: 800px;
+            overflow: scroll;
+        }
